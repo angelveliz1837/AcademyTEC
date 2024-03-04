@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>ISADRIPeru</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+  </head>
+  <body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+      <header>
+        <div class="logo">
+          <a href="#">ISADRI PERU</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+            <li><a href="#nosotros" onclick="seleccionar()">NOSOTROS</a></li>
+            <li><a href="#servicio" onclick="seleccionar()">SERVICIO</a></li>
+            <li><a href="#equipo" onclick="seleccionar()">EQUIPO</a></li>
+            <li><a href="#galeria" onclick="seleccionar()">GALERIA</a></li>
+            <li>
+              <a href="#contactanos" onclick="seleccionar()">CONTACTANOS</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+      <div class="contenido-banner">
+        <div class="contenedor-img">
+          <img src="img/logo/logo_isadri.png" alt="" />
+        </div>
+        <h1>ISADRI PERU</h1>
+        <h2>Especialistas en Aire Acondicionado</h2>
+        <div class="redes">
+          <a
+            href="https://www.facebook.com/profile.php?id=61556329171412"
+            target="_blank"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="https://wa.me/51938871124" target="_blank"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a href="mailto:juanmanuelvelizapolinario1837@gmail.com"
+            ><i class="fa-solid fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION NOSOTROS -->
+    <section id="nosotros" class="contenido">
+      <div class="row">
+        <div class="col-12"><h2>Sobre Nosotros</h2></div>
+        <div class="col-1"></div>
+        <div class="col-3 contenido-seccion">
+          <center><img class="galeria__imagen" src="img/informacion/foto1.jpg" /></center>
+        </div>
+        <div class="col-7 contenido-seccion">
+          <p>
+            En <span>ISADRI PERU</span> nos enorgullecemos de ser líderes en el
+              mercado de soluciones en aire acondicionado en Perú. Con una
+              trayectoria sólida y un equipo altamente calificado, nos destacamos
+              por ofrecer productos y servicios de alta calidad que cumplen con
+              los más altos estándares de excelencia y satisfacen las necesidades
+              de nuestros clientes.
+          </p>
+        </div>
+        <div class="col-1"></div>
+        
+        <div class="col-12"><h2>Objetivo</h2></div>
+        <div class="col-1"></div>
+        <div class="col-7 contenido-seccion">
+          <p>
+            Nuestro principal objetivo en <span>ISADRI PERU.</span> es
+            proporcionar soluciones integrales en aire acondicionado que
+            garanticen el confort y bienestar en los espacios tanto
+            residenciales como comerciales. Buscamos ser reconocidos como la
+            opción preferida por nuestros clientes debido a la calidad de
+            nuestros productos, el profesionalismo de nuestro equipo y el
+            compromiso con la satisfacción del cliente.
+          </p>
+        </div>
+        <div class="col-3 contenido-seccion">
+          <center><img class="galeria__imagen" src="img/informacion/foto2.jpg" /></center>
+        </div>
+        <div class="col-1"></div>
+
+        <div class="col-12"><h2>Misión</h2></div>
+        <div class="col-1"></div>
+        <div class="col-3 contenido-seccion">
+          <center><img class="galeria__imagen" src="img/informacion/foto3.png" /></center>
+      </div>
+        <div class="col-7 contenido-seccion">
+          <p>
+            En <span>ISADRI PERU,</span> nuestra misión es brindar servicios de
+              aire acondicionado de primera clase que mejoren la calidad de vida
+              de las personas y contribuyan al bienestar y eficiencia de los
+              espacios en los que trabajamos. Nos esforzamos por superar las
+              expectativas de nuestros clientes, ofreciendo productos innovadores,
+              soluciones personalizadas y un servicio excepcional en todo momento.
+          </p>
+        </div>
+        <div class="col-1"></div>
+        
+        <div class="col-12"><h2>Trabajos</h2></div>
+        <div class="col-1"></div>
+        <div class="col-7 contenido-seccion">
+          <p>
+            En <span>ISADRI PERU,</span> nos especializamos en la instalación,
+            mantenimiento y reparación de sistemas de aire acondicionado para
+            una amplia variedad de aplicaciones, incluyendo residencial,
+            comercial e industrial. Nuestro equipo de técnicos altamente
+            capacitados utiliza tecnología de vanguardia y técnicas de
+            ingeniería avanzadas para garantizar que cada proyecto se realice
+            con precisión y eficiencia. Desde la selección del equipo adecuado
+            hasta la puesta en marcha y el mantenimiento continuo, estamos
+            comprometidos a proporcionar soluciones completas y personalizadas
+            que satisfagan las necesidades específicas de cada cliente.
+          </p>
+        </div>
+        <div class="col-3 contenido-seccion">
+            <center><img class="galeria__imagen" src="img/informacion/foto4.jpg" /></center>
+        </div>
+        <div class="col-1"></div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row d-flex justify-content-between">
+        <div class="col-3 movil">
+          <br />
+          <center>
+            <img src="img/decoracion/atencion-al-cliente-150x150.png" />
+            <h2>Rápida Atención</h2>
+          </center>
+        </div>
+        <div class="col-3 movil">
+          <br />
+          <center>
+            <img src="img/decoracion/servicio-al-cliente-150x150.png" />
+            <h2>Servicio de Calidad</h2>
+          </center>
+        </div>
+        <div class="col-3 movil">
+          <br />
+          <center>
+            <img src="img/decoracion/certificado-de-garantia-150x150.png" />
+            <h2>Garantía</h2>
+          </center>
+        </div>
+        <div class="col-3 movil">
+          <br />
+          <center>
+            <img src="img/decoracion/eficacia-150x150.png" />
+            <h2>Eficiencia</h2>
+          </center>
+        </div>
+      </div>
+    </div>
+
+    <section id="servicio" class="contenido">
+      <h2>SERVICIOS</h2>
+      <div>Nuestros servicios están disponibles para Lima y todo el Perú.</div>
+      <br>
+      <div class="row">
+        <div class="col-4 movil">
+          <h4 class="titulo">Instalaciones</h4>
+          <p>
+            Puesta a punto de nuevos equipos de refrigeración y climatización.
+          </p>
+        </div>
+        <div class="col-4 movil">
+          <h4 class="titulo">Reparaciones</h4>
+          <p>
+            Localización y reparación de fugas. Solucionar fallas eléctricas.
+            Atención personalizada.
+          </p>
+        </div>
+        <div class="col-4 movil">
+          <h4 class="titulo">Mantenimiento</h4>
+          <p>
+            Limpieza de equipos, cambio de piezas desgastadas, soporte ante
+            cualquier avería.
+          </p>
+        </div>
+      </div>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Equipos de Refrigeración
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              <div class="row">
+                <div class="col-6">
+                  <ul>
+                    <li>Aire acondicionado split</li>
+                    <li>Aire acondicionado multisplit</li>
+                    <li>Aire acondicionado cassette</li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul>
+                    <li>Aire acondicionado por conductos</li>
+                    <li>Aire acondicionado suelo-techo</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo" class="contenido">
+      <h2>EQUIPO</h2>
+      <div class="row">
+        <div class="col-3 movil">
+          <h4 class="titulo">Electricistas</h4>
+          <p class="texto">
+            Abarcan desde cableado básico hasta la configuración de paneles
+            eléctricos complejos. Hábiles en la identificación y solución de
+            problemas eléctricos, garantizando la seguridad y eficiencia de las
+            instalaciones.
+            <hr>
+          </p>
+        </div>
+        <div class="col-3 movil">
+          <h4 class="titulo">Paletas y fontaneros</h4>
+          <p class="texto">
+            Expertos en fontanería y albañilería. Instalan y reparan tuberías,
+            grifos, sanitarios, así como trabajos de albañilería para la
+            construcción y mantenimiento de estructuras.
+            <hr>
+          </p>
+        </div>
+        <div class="col-3 movil">
+          <h4 class="titulo">Técnicos en refrigeración</h4>
+          <p class="texto">
+            Dominan la manipulación de aires acondicionados, congeladores y
+            sistemas de refrigeración industrial. Su pericia radica en asegurar
+            un rendimiento óptimo y la eficiencia energética de estos sistemas.
+            <hr>
+          </p>
+        </div>
+        <div class="col-3 movil">
+          <h4 class="titulo">Técnicos en equipos industriales</h4>
+          <p class="texto">
+            Su experiencia abarca desde la sustitución de circuitos eléctricos
+            simples hasta el reemplazo de piezas desgastadas por su uso. Son
+            capaces de diagnosticar y solucionar los problemas de la maquinaria
+            industrial, asegurando su funcionamiento a largo plazo.
+            <hr>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="contenido">
+      <h2>GALERIA</h2>
+      <div class="row">
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto15.jpg" />
+        </div>
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto16.jpg" />
+        </div>
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto17.jpg" />
+        </div>
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto18.jpg" />
+        </div>
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto19.jpg" />
+        </div>
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto21.jpg" />
+        </div>
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto22.jpg" />
+        </div>
+        <div class="col-3 movil">
+          <img class="galeria__imagen" src="img/fotos/foto27.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section id="contactanos" class="contenido">
+      <div class="contenido-seccion">
+        <h2>Videos</h2>
+        <div class="centrar">
+          <iframe
+            src="https://www.youtube.com/embed/sJfIWqWh2tg?si=k7CIuC3qxcr5QRUp"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <center>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.5552429178114!2d-77.08513068723946!3d-12.028302861214978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ceb965d712c5%3A0x9570eb111e8f583c!2sJiron%20Ancash%203519%2C%20Lima%2015106!5e0!3m2!1ses-419!2spe!4v1707279116119!5m2!1ses-419!2spe"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </center>
+
+    <!-- footer -->
+    <footer id="referencia">
+      <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+      </a>
+      <div class="container">
+        <div class="row">
+          <div id="referencia__titulo" class="col-md-12">
+            <b>Referencias</b>
+          </div>
+          <div class="col-md-6 referencia__texto">
+            <ul>
+              <li>
+                <svg
+                  width="23"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"
+                  />
+                </svg>
+                <strong>Oficina:</strong> JR. ANCASH 3519 - SMP - LIMA - PERU
+              </li>
+              <li>
+                <svg
+                  width="23"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                  />
+                </svg>
+                <strong>Teléfono:</strong> +51 938 871 124
+              </li>
+              <li>
+                <svg
+                  width="23"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 384 512"
+                >
+                  <path
+                    d="M16 64C16 28.7 44.7 0 80 0H304c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H80c-35.3 0-64-28.7-64-64V64zM224 448c0-17.7-14.3-32-32-32s-32 14.3-32 32s14.3 32 32 32s32-14.3 32-32zM304 64H80V384H304V64z"
+                  />
+                </svg>
+                <strong>Celular:</strong> +51 949 948 113
+              </li>
+              <li>
+                <svg
+                  width="23"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512"
+                >
+                  <path
+                    d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0l57.4-43c23.9-59.8 79.7-103.3 146.3-109.8l13.9-10.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176V384c0 35.3 28.7 64 64 64H360.2C335.1 417.6 320 378.5 320 336c0-5.6 .3-11.1 .8-16.6l-26.4 19.8zM640 336c0-79.5-64.5-144-144-144s-144 64.5-144 144s64.5 144 144 144s144-64.5 144-144zm-76.7-43.3c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 353.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z"
+                  />
+                </svg>
+                <strong>Correo:</strong> juanmanuelvelizapolinario1837@gmail.com
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 referencia__texto">
+            <ul>
+              <li>
+                <svg
+                  width="23"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                >
+                  <path
+                    d="M256 512C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256s-114.6 256-256 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"
+                  />
+                </svg>
+                <strong>Horario de Atención:</strong>
+                <br />
+                <br />Lunes a Viernes de 8:00 am a 7:00 pm <br />Sábados y
+                Domingos de 9:00 am a 4:00pm
+              </li>
+              <li>
+                <svg
+                  width="23"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 640 512"
+                >
+                  <path
+                    d="M144 160c-44.2 0-80-35.8-80-80S99.8 0 144 0s80 35.8 80 80s-35.8 80-80 80zm368 0c-44.2 0-80-35.8-80-80s35.8-80 80-80s80 35.8 80 80s-35.8 80-80 80zM0 298.7C0 239.8 47.8 192 106.7 192h42.7c15.9 0 31 3.5 44.6 9.7c-1.3 7.2-1.9 14.7-1.9 22.3c0 38.2 16.8 72.5 43.3 96c-.2 0-.4 0-.7 0H21.3C9.6 320 0 310.4 0 298.7zM405.3 320c-.2 0-.4 0-.7 0c26.6-23.5 43.3-57.8 43.3-96c0-7.6-.7-15-1.9-22.3c13.6-6.3 28.7-9.7 44.6-9.7h42.7C592.2 192 640 239.8 640 298.7c0 11.8-9.6 21.3-21.3 21.3H405.3zM416 224c0 53-43 96-96 96s-96-43-96-96s43-96 96-96s96 43 96 96zM128 485.3C128 411.7 187.7 352 261.3 352H378.7C452.3 352 512 411.7 512 485.3c0 14.7-11.9 26.7-26.7 26.7H154.7c-14.7 0-26.7-11.9-26.7-26.7z"
+                  />
+                </svg>
+                <strong>Contactanos:</strong>
+                <br />
+                <a
+                  style="padding: 0em 1em 0em 2em"
+                  href="https://www.facebook.com/profile.php?id=61556329171412"
+                  target="_blank"
+                >
+                  <svg
+                    width="30"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"
+                    />
+                  </svg>
+                </a>
+                <!--href="https://web.facebook.com/profile.php?id=61556129409920"-->
+                <a
+                  aria-label="Chat on WhatsApp"
+                  href="https://wa.me/51938871124"
+                  target="_blank"
+                >
+                  <svg
+                    width="35"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                    />
+                  </svg>
+                </a>
+                <a href="mailto:juanmanuelvelizapolinario1837@gmail.com"
+                  ><svg
+                    width="40"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"
+                  >
+                    <path
+                      d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0l57.4-43c23.9-59.8 79.7-103.3 146.3-109.8l13.9-10.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176V384c0 35.3 28.7 64 64 64H360.2C335.1 417.6 320 378.5 320 336c0-5.6 .3-11.1 .8-16.6l-26.4 19.8zM640 336c0-79.5-64.5-144-144-144s-144 64.5-144 144s64.5 144 144 144s144-64.5 144-144zm-76.7-43.3c6.2 6.2 6.2 16.4 0 22.6l-72 72c-6.2 6.2-16.4 6.2-22.6 0l-40-40c-6.2-6.2-6.2-16.4 0-22.6s16.4-6.2 22.6 0L480 353.4l60.7-60.7c6.2-6.2 16.4-6.2 22.6 0z"
+                    /></svg></a>
+              </li>
+            </ul>
+          </div>
+          <div id="referencia__autor" class="col-md-12">
+            <div>
+              <center><b>© Copyright 2024 - Angel Veliz</b></center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
