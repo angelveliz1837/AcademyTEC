@@ -366,6 +366,14 @@ font-size: 100%;
         width: 35em;
         height: 22em;
     }
+
+    .cursos__texto__area_II{
+        width: 100%;
+    }
+
+    .altura{
+        margin-top: -15px;
+    }
 }
 
 @media screen and (max-width:640px){
