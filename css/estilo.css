@@ -75,7 +75,8 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #0000ff;
+    /*border: 10px solid #0000ff;*/
+    border: 10px solid #0FA6A9;
     display: block;
     width: 80%;
     margin: auto;
@@ -107,9 +108,13 @@ html{
     background-color: #0000ff;
 }
 .contenido{
-    background-color: #cc99ff;
+    /*background-color: #cc99ff;*/
+    background: url('../img/fotos/fondo.png');
+    /*background-repeat: repeat;*/
     color: #fff;
-    padding: 20px 20px;
+    /*padding: 20px 20px;*/
+    padding: 0px;
+    margin: 0px;
 }
 .contenido .contenido-seccion{
     max-width: 1100px;
@@ -127,6 +132,7 @@ html{
     line-height: 22px;
     margin-bottom: 20px;
     text-align: justify;
+    margin-left: 40px;
 }
 .contenido .contenido-seccion p span{
     color: #0000ff;
@@ -273,11 +279,12 @@ footer .arriba{
 }
 
 .galeria__imagen{
-    width: 325px;
-    height: 300px;
+    width: 400px;
+    height: 280px;
     margin-bottom: 1.5em;
     border: 0.4em solid;/*grosor del borde*/
-      border-color: #2008f4;/*color de borde*/
+      /*border-color: #2008f4;/*color de borde*/
+      border-color: #0FA6A9;/*color de borde*/
       border-radius: 1em / 0.5em;/*borde*/
       -webkit-box-shadow: 12px 17px 5px 0px rgba(0,0,0,0.75);/*sombra*/
     -moz-box-shadow: 12px 17px 5px 0px rgba(0,0,0,0.75);
@@ -302,7 +309,7 @@ footer .arriba{
 #referencia {
     display: flex;
     width: 100%;
-    background-color: #37A8D4;/*color de fondo*/
+    background-color: #cc99ff;/*color de fondo*/
     color: #000000;/*color de letra*/
     border-top: solid #ffffff 2px;/*borde de arriba*/
     margin: 1% 0%;
