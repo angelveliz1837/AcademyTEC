@@ -478,6 +478,60 @@
 .offer-section .nav a.accordion-link.active h5 {
     color: var(--bs-white);
 }
+
+@media (max-width: 1400px) {
+    .bottom_abajo{
+        padding-bottom: 1rem !important;
+    }
+    iframe {
+        width: 81%;
+    }
+}
+
+@media (max-width: 1200px) {
+    iframe {
+        width: 54%;
+    }
+}
+
+@media (max-width: 992px) {
+    iframe {
+        height: 280px;
+        width: 73%;
+    }
+}
+
+@media (max-width: 768px) {
+    iframe {
+        height: 280px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 534px) {
+    iframe {
+        height: 230px;
+    }
+}
+
+@media (max-width: 455px) {
+    iframe {
+        height: 200px;
+    }
+}
+
+@media (max-width: 390px) {
+    iframe {
+        height: 150px;
+    }
+}
+
+@media (max-width: 313px) {
+    iframe {    
+        height: 140px;
+    }
+}
+
 /*** Offer End ***/
 
 /*** Blog Start ***/
