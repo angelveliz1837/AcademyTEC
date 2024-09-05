@@ -112,16 +112,6 @@ html{
     box-shadow: 12px 17px 5px 0px rgba(0,0,0,0.75);
 }
 
-/* SECCION VIRTUAL */
-.virtual__video{
-    margin-bottom: 1.5em;
-    border: 0.4em solid;/*grosor del borde*/
-      border-color: #0FA6A9;/*color de borde*/
-      border-radius: 1em / 0.5em;/*borde*/
-      -webkit-box-shadow: 12px 17px 5px 0px rgba(0,0,0,0.75);/*sombra*/
-    -moz-box-shadow: 12px 17px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 12px 17px 5px 0px rgba(0,0,0,0.75);
-}
 
 /* SECCION CURSOS */
 .cursos__titulo{
